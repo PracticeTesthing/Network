@@ -8,8 +8,8 @@ int main(){
 	*/
     vector<tuple<int, int, int, int>> dataset = {
         make_tuple(0, 0, 0, 0),
-		make_tuple(0, 0, 1, 0),
-		make_tuple(0, 1, 0, 1),
+	make_tuple(0, 0, 1, 0),
+	make_tuple(0, 1, 0, 1),
         make_tuple(1, 1, 1, 1),
         make_tuple(1, 0, 0, 1),
         make_tuple(1, 0, 1, 1),
