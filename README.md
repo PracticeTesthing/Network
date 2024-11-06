@@ -13,7 +13,7 @@ I am using the MIT License. This means that you are allowed to do allmost anythi
 
 ## But Why Did I Try?
   
-It was bothering me so I decided to just go for it.
+I was working on something important and it was bothering me so I decided to just go for it.
 
 
 ## What is a Neural Network?
