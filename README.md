@@ -105,7 +105,7 @@ But why? This is because on the first data set, the output for the values `0 1 1
 
 ## Your Job
 
-I am sorry for giving you a job xD. Also, the code is simple. However, if in case you would like to contribute:
+I am sorry for giving you a job xD. Also, the code is simple 😅. However, if in case you would like to contribute:
 
  - What's Allowed
    * Proof of Theorems prolly. Feel free to express your thoughts
