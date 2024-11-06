@@ -61,7 +61,7 @@ Now Theorem 2 is a bit harder to explain. My reasoning for this is that a percep
 
 The main point of Definition 2? The domain `d` is restricted at a finite interval NOT because some values are not defined but because the probability of some output is impossible to occur.
 
-Now, easy to say that `the probability of an output is impossible to occur equals to an undefined value`. That's why I declared it a theorem (regarding Theorem 2). Again. A THEOREM. I don't want to declare it equal YET as I have a feeling that there is something worth the wait. 
+Now, easy to say that `the probability of an output is impossible to occur equals to an undefined value`. That's why I declared it a theorem (regarding Theorem 2). Again. A THEOREM. I don't want to declare it equal YET as I have a feeling that there is something worth the wait. On Theorem 1, we neglect the chance of a probability occuring despite the whole concept of Machine Learning being all about predicting. It's because, for all values in the domain of a perceptron that is defined, then there is no probability since all of those values WILL OCCUR depending on the input.
 
 ## The Intuition Behind the Sample Dataset
 
