@@ -7,6 +7,10 @@
   
 </div>
 
+## LICENSE
+
+I am using the MIT License. This means that you are allowed to do allmost anything as long as you PROVIDE ATTRIBUTION back to the author and DON'T HOLD the author LIABLE FOR ANY DAMAGE.
+
 ## But Why Did I Try?
   
 It was bothering me so I decided to just go for it.
@@ -61,9 +65,50 @@ Now, easy to say that `the probability of an output is impossible to occur equal
 
 ## The Intuition Behind the Sample Dataset
 
-## Coding
-For an in-depth explanation of this random stuff, just click here.
+Given a dataset of:
+
+| Input 1 | Input 2 | Input 3 | Output |
+|---|---|---|---|
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+
+
+The idea is to input 3 values from the first 3 inputs of the data set (either 0 or 1) separated by spaces and the program would output the values in the 4th column. For example:
+
+Input: `0 0 1`
+
+Output: `0`
+
+
+Now, is this a neural network? NOPE. It might be close but it is not. Why? Because imagine if I decrease the set of inputs
+
+| Input 1 | Input 2 | Input 3 | Output |
+|---|---|---|---|
+| 0 | 0 | 1 | 0 |
+| 0 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 1 |
+
+Now, let us input some values NOT INCLUDED in the data set
+
+Input: `0 1 1`
+
+Output: `???`
+
+But why? This is because on the first data set, the output for the values `0 1 1` is defined as `0`. On the second data set however, it is not defined. A Neural Network will PREDICT the output based on the given input that is NOT INCLUDED on the data set
+
 
 ## Your Job
+
+I am sorry for giving you a job xD. Also, the code is simple. However, if in case you would like to contribute:
+
+ - What's Allowed
+   * Proof of Theorems prolly. Feel free to express your thoughts
+   * A Neural Network is suppose to predict the output, write the code to predict the output :)
 
 
